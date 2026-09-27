@@ -1,0 +1,54 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam packageStyle rectangle
+hide empty members
+
+package model {
+    class MorseDecoderModel {
+        - lastEncodedText : String
+        - decodedText : String
+        + decode(encoded : String) : void
+        + getLastEncodedText() : String
+        + getDecodedText() : String
+    }
+    enum Alphabet {
+        + findByCode(code : String) : Alphabet
+    }
+    class InvalidMorseCodeException
+}
+
+package view {
+    class MainView {
+        + setLastInput(encoded : String) : void
+        + setResult(result : String) : void
+        + showError(message : String) : void
+    }
+    class InputDialog {
+        + getInput() : String
+        + setValues(encoded : String) : void
+        + setOnSubmit(action : Runnable) : void
+    }
+}
+
+package controller {
+    class MorseController {
+        + openInputDialog(parent : JFrame) : void
+    }
+}
+
+class Main
+
+Main ..> MorseDecoderModel
+Main ..> MainView
+Main ..> MorseController
+
+MainView ..> MorseController : uses
+MorseController --> MorseDecoderModel
+MorseController --> MainView
+MorseController --> InputDialog
+
+MorseDecoderModel ..> Alphabet : uses
+MorseDecoderModel ..> InvalidMorseCodeException : throws
+MainView ..|> PropertyChangeListener : implements
+
+@enduml

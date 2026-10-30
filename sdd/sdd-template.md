@@ -109,5 +109,6 @@
 
 ## 5. Приложения
 
-* Ссылка на репозиторий: [GitHub Link]
-* Ссылка на макеты (PNG): `srs/images/`
+* **Репозиторий проекта:** [https://github.com/dariyakos2007-alt/SDLC/tree/lab3-requirements](https://github.com/dariyakos2007-alt/SDLC/tree/lab3-requirements)
+* **Структурная диаграмма главной страницы (PNG):** [dashboard.png](https://github.com/dariyakos2007-alt/SDLC/blob/lab3-requirements/srs/images/dashboard.png)
+* **Структурная диаграмма «Конструктор заказа» (PNG):** [constructor.png](https://github.com/dariyakos2007-alt/SDLC/blob/lab3-requirements/srs/images/constructor.png)

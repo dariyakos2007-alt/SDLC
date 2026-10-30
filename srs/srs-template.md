@@ -287,6 +287,6 @@
 
 ## 5. Приложения {#5-appendixes}
 
-* **Структурная диаграмма главной страницы:** [srs/images/dashboard.png](srs/images/dashboard.png)
-* **Структурная диаграмма «Конструктор заказа»:** [srs/images/constructor.png](srs/images/constructor.png)
+* **Структурная диаграмма главной страницы:** [images/dashboard.png](images/dashboard.png)
+* **Структурная диаграмма «Конструктор заказа»:** [images/constructor.png](images/constructor.png)
 * **Репозиторий:** https://github.com/dariyakos2007-alt/SDLC

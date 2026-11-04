@@ -205,7 +205,7 @@
 * **Acceptance Criteria:** В личном кабинете доступен список заказов, отсортированный по дате (сначала новые).
 * **Verification Method:** Demonstration.
 
-### 3.3 Качество обслуживания {#33-quality-of-service}
+### 3.3 Нефункциональные требования {#33-quality-of-service}
 
 #### 3.3.1 Производительность {#331-performance}
 

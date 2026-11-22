@@ -42,7 +42,7 @@
 
 | **SDD** | Software Design Description — описание дизайна программного обеспечения. |
 
-| **ADR\*\* | Architecture Decision Record — протокол архитектурных решений. |
+| **ADR** | Architecture Decision Record — протокол архитектурных решений. |
 
-| \*\*MVP\*\* | Minimum Viable Product — минимально жизнеспособный продукт (версия с базовым функционалом). |
+| **MVP** | Minimum Viable Product — минимально жизнеспособный продукт (версия с базовым функционалом). |
 
